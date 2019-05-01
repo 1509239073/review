@@ -54,7 +54,7 @@ class Clear extends Command
             foreach ($files as $file) {
                 if ('.' != $file && '..' != $file && is_dir($path . $file)) {
                     $this->clearPath($path . $file);
-                } elseif ('.gitignore.xx' != $file && is_file($path . $file)) {
+                } elseif ('.gitignore' != $file && is_file($path . $file)) {
                     unlink($path . $file);
                 }
             }

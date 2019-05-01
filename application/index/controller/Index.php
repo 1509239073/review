@@ -17,6 +17,9 @@ class Index
     {
         echo phpinfo();
     }
+    public function  getAdd(){
+        echo 222;
+    }
 
     public function million_data_test()
     {

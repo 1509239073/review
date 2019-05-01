@@ -17,6 +17,6 @@ class Notes
 
 
     public function  aas($id){
-
+        echo '111';
     }
 }

@@ -17,6 +17,10 @@ class Index
     {
         echo phpinfo();
     }
+    public function getOne()
+    {
+        echo 1;
+    }
 
     public function million_data_test()
     {

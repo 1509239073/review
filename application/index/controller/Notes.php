@@ -22,5 +22,8 @@ class Notes
     public  function  getAdd(){
         echo '222';
     }
+    public function  getUser(){
+        echo 'learning';
+    }
 
 }

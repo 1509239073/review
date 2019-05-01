@@ -21,6 +21,10 @@ class Index
     {
         echo 1;
     }
+    public function getTwo()
+    {
+        echo 2;
+    }
 
     public function million_data_test()
     {

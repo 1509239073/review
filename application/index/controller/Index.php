@@ -20,6 +20,9 @@ class Index
     public function  getAdd(){
         echo 222;
     }
+    public function  getGit(){
+        echo 'git is very good';
+    }
 
     public function million_data_test()
     {

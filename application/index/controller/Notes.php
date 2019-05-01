@@ -19,4 +19,7 @@ class Notes
     public function  aas($id){
         echo '111';
     }
+    public function  getAdd(){
+        echo 222;
+    }
 }
